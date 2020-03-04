@@ -1,0 +1,107 @@
+body {
+	background-color: #404038;
+}
+.header, .footer {
+	background-color:#581845;
+	color: #ffc305;
+	font-family:Impact;
+	padding: 40px;
+	border: 2px solid  orange;
+} 
+.header{
+	font-size:200%;
+}
+.column {
+    float: left;
+    padding: 10px;
+    backface-visibility: visible;
+    background-color: cadetblue;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 25px;
+}
+.largemenu{
+    width: 90%;
+    align-content: center;
+}
+.liLarge {
+	margin: 3px;
+	padding: 4%;
+    padding-left: 30%;
+    padding-right: 30%;
+	background-color: #900c3f;
+	border: 1px solid orange;
+    color: #ffc305;
+	font-family: Impact;
+}
+.liLarge:hover {
+	background-color: #c70039;
+}
+.menu {
+    width: 30%;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	margin: 3px;
+	padding: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+	background-color: #900c3f;
+	border: 1px solid orange;
+    color: #ffc305;
+	font-family: Impact;
+}
+.menu li:hover {
+	background-color: #c70039;
+}
+.content {
+    width: 70%;
+    float: left;
+    color: orange;
+}
+table {
+	width: 100%;
+}
+a:link{
+	text-decoration: none;
+    font-family: Verdana;
+    color: #ffc305;
+}
+a:hover{
+	text-decoration: underline;
+    font-family: Verdana;
+    color: #ffc305;
+}
+a:visited{
+	text-decoration: none;
+    font-family: Verdana;
+    color: #999900;
+}
+a:active{
+	text-decoration: none;
+    font-family: Verdana;
+    color: blue;
+}
+pre {
+	font-family: Verdana;
+	font-style: bold;
+}
+@media only screen and (max-width: 600px) {
+    form.searchbar{
+        width: 0%;
+        visibility: hidden;
+        display: none;
+    }
+    .menu { 
+        width: 0%;
+        visibility: hidden;
+        display: none;
+    }
+}
